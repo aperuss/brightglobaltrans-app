@@ -171,7 +171,7 @@
                         </ul>
                     </div>
                     <div class="flex justify-center pt-16">
-                        <button class="bg-bigTitle text rounded-lg w-96 h-14 text-black font-semibold text-xl border-2 border-bigTitle hover:bg-customGreen hover:text-bigTitle">Pesan</button>
+                        <button class="bg-bigTitle text rounded-lg w-96 h-14 text-black font-semibold text-xl border-2 border-bigTitle hover:bg-customGreen hover:text-bigTitle transition duration-300">Pesan</button>
                     </div>
                 </div>
         
@@ -195,7 +195,7 @@
                             </ul>
                         </div>
                         <div class="flex justify-center pt-4">
-                            <button class="bg-bigTitle text rounded-lg w-96 h-14 text-black font-semibold text-xl border-2 border-bigTitle hover:bg-customGreen hover:text-bigTitle">Pesan</button>
+                            <button class="bg-bigTitle text rounded-lg w-96 h-14 text-black font-semibold text-xl border-2 border-bigTitle hover:bg-customGreen hover:text-bigTitle transition duration-300">Pesan</button>
                         </div>
                     </div>
                 </div>
@@ -216,12 +216,53 @@
                         </ul>
                     </div>
                     <div class="flex justify-center pt-16">
-                        <button class="bg-bigTitle text rounded-lg w-96 h-14 text-black font-semibold text-xl border-2 border-bigTitle hover:bg-customGreen hover:text-bigTitle">Pesan</button>
+                        <button class="bg-bigTitle text rounded-lg w-96 h-14 text-black font-semibold text-xl border-2 border-bigTitle hover:bg-customGreen hover:text-bigTitle transition duration-300">Pesan</button>
                     </div>
                 </div>
             </div>
         </div>
-        
-    
+        <div class="bg-green-600">
+            <div class="px-8 md:px-28 lg:px-28 py-5">
+                <div class="text-2xl md:text-3xl lg:text-5xl font-bold text-bigTitle mb-2">
+                    Rute Kami
+                </div>
+                <div class="text-[#fbf7eb] text-sm md:text-xl mb-4">
+                    Kami menyediakan rute-rute ke kota-kota besar yang tersedia setiap harinya
+                </div>
+                <div class="flex md:flex-row flex-col gap-3 pb-4 text-lg">
+                    <button id="ruteKhusus" class="text-[#fbf7eb] bg-bigTitle py-2 px-7 font-semibold rounded-xl" onclick="showRuteKhusus()">Rute Khusus</button>
+                    <button id="ruteInternational" class="text-customGreen bg-[#fbf7eb] py-2 px-7 font-semibold rounded-xl" onclick="showRuteInternational()">Rute Internasional</button>
+                </div>
+                
+                <div id="ruteContainer" class="bg-[#f6f1eb] rounded-lg text-lg">
+                    <!-- Data awal ditampilkan di sini -->
+                    <div class="py-4">
+                        <span class="text-xl font-semibold px-10">Untuk perjalanan antar kota</span>
+                    </div>
+                    <div>
+                        <div class="bg-[#494d2d] text-[#fbf7eb] px-10 py-4">Bandung - Bandara</div>
+                    </div>
+                    <div>
+                        <div class="px-10 py-4">Bandung - Yogyakarta</div>
+                    </div>
+                    <div>
+                        <div class="bg-[#494d2d] text-[#fbf7eb] px-10 py-4">Bandung - Bali</div>
+                    </div>
+                    <div>
+                        <div class="px-10 py-4">Bandung - Semarang</div>
+                    </div>
+                    <div>
+                        <div class="bg-[#494d2d] text-[#fbf7eb] px-10 py-4">Bandung - Surabaya</div>
+                    </div>
+                    <div class="mx-6 mt-8 mb-2">
+                        <div class="bg-customGreen w-full h-0.5 ">
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <button class="text-[#fbf7eb] bg-bigTitle w-full h-14 rounded-xl text-xl font-bold border-2 border-bigTitle hover:bg-[#f6f1eb] hover:text-bigTitle trans transition duration-300">Hubungi Kami</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </x-app>
