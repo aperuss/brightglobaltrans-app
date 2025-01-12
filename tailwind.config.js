@@ -33,6 +33,9 @@ export default {
                 105: "50rem",
                 106: "33rem",
             },
+            backgroundImage: {
+                
+              }
         },
     },
     plugins: [require("flowbite/plugin")],

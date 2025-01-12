@@ -36,7 +36,7 @@
         function showRuteKhusus() {
             document.getElementById('ruteContainer').innerHTML = `
                 <div class="py-4">
-                    <span class="text-xl font-semibold px-10">Untuk perjalanan antar kota</span>
+                    <span class="text-lg md:text-xl font-semibold px-10">Untuk perjalanan antar kota</span>
                 </div>
                 <div>
                     <div class="bg-[#494d2d] text-[#fbf7eb] px-10 py-4">Bandung - Bandara</div>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 <div class="p-5">
-                    <button class="text-[#fbf7eb] bg-bigTitle w-full h-14 rounded-xl text-xl font-bold border-2 border-bigTitle hover:bg-[#f6f1eb] hover:text-bigTitle trans transition duration-300">Hubungi Kami</button>
+                    <button class="text-[#fbf7eb] bg-bigTitle w-full h-14 rounded-xl text-lg md:text-xl font-bold border-2 border-bigTitle hover:bg-[#f6f1eb] hover:text-bigTitle trans transition duration-300">Hubungi Kami</button>
                 </div>
             `;
             setActiveButton('ruteKhusus', 'ruteInternational');
@@ -67,7 +67,7 @@
         function showRuteInternational() {
             document.getElementById('ruteContainer').innerHTML = `
                 <div class="py-4">
-                    <span class="text-xl font-semibold px-10">Untuk perjalanan internasional</span>
+                    <span class="text-base md:text-xl font-semibold px-10">Untuk perjalanan internasional</span>
                 </div>
                 <div>
                     <div class="bg-[#494d2d] text-[#fbf7eb] px-10 py-4">Swiss</div>
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                 <div class="p-5">
-                    <button class="text-[#fbf7eb] bg-bigTitle w-full h-14 rounded-xl text-xl font-bold border-2 border-bigTitle hover:bg-[#f6f1eb] hover:text-bigTitle trans transition duration-300">Hubungi Kami</button>
+                    <button class="text-[#fbf7eb] bg-bigTitle w-full h-14 rounded-xl text-lg md:text-xl font-bold border-2 border-bigTitle hover:bg-[#f6f1eb] hover:text-bigTitle trans transition duration-300">Hubungi Kami</button>
                 </div>
             `;
             setActiveButton('ruteInternational', 'ruteKhusus');
