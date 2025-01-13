@@ -15,7 +15,7 @@
                             Quidem ipsa maxime in natus a eum reprehenderit culpa laboriosam tempora dolorum facere atque, 
                             voluptatem aut vitae suscipit repudiandae magni et dignissimos!
                         </div>
-                        <div class="flex flex-col md:flex-row gap-4 md:gap-10 items-center pb-4">
+                        <div class="flex flex-row gap-4 md:gap-10 items-center pb-4">
                             <button class="text-sm md:text-xl border-2 border-customGreen py-1 px-5 md:px-7 text-customGreen  hover:bg-customGreen hover:text-white transition-colors duration-300">
                                 ORDER NOW
                             </button>
@@ -106,47 +106,46 @@
         </div>
         
         
-        <div class="px-8 md:px-28 lg:px-28 my-14">
-            {{-- <!-- Judul -->
-            <div class="text-2xl md:text-3xl lg:text-5xl font-bold text-center mb-14">
-                Layanan <span class="text-bigTitle">Unggul</span>
-            </div> --}}
-        
-            <!-- Baris Pertama -->
+        <div class="px-8 md:px-28 my-14">
             <div class="flex flex-col md:flex-row justify-center gap-14 md:gap-6 lg:gap-40">
-                <div class="w-full md:w-1/3 lg:w-80">
-                    
-                    <img src="{{ asset('img/calendar.svg') }}" alt="" class="mx-auto mt-4 w-28">
+                <!-- Card 1 -->
+                <div class="w-full md:w-1/3 lg:w-80 transition-transform transform hover:scale-105 hover:shadow-lg p-4 bg-white rounded-lg">
+                    <img src="{{ asset('img/calendar.svg') }}" alt="Calendar Icon" class="mx-auto mt-4 w-28">
                     <p class="text-center my-4 text-5xl text-bigTitle">3 <span class="text-xl align-top text-textGreen">+</span></p>
-                    <p class="text-center">
+                    <p class="text-center text-gray-700 font-semibold">
                         Tahun
                     </p>
                 </div>
-                <div class="w-full md:w-1/3 lg:w-80">
-                    <img src="{{ asset('img/partner.svg') }}" alt="" class="mx-auto mt-4 w-28">
-                    <p class="text-center my-4 text-5xl text-bigTitle ">2000<span class="text-xl align-top text-textGreen">+</span></p>
-                    <p class="text-center">
+                
+                <!-- Card 2 -->
+                <div class="w-full md:w-1/3 lg:w-80 transition-transform transform hover:scale-105 hover:shadow-lg p-4 bg-white rounded-lg">
+                    <img src="{{ asset('img/partner.svg') }}" alt="Partner Icon" class="mx-auto mt-4 w-28">
+                    <p class="text-center my-4 text-5xl text-bigTitle">2000<span class="text-xl align-top text-textGreen">+</span></p>
+                    <p class="text-center text-gray-700 font-semibold">
                         Customer
                     </p>
                 </div>
-                <div class="w-full md:w-1/3 lg:w-80">
-                    
-                    <img src="{{ asset('img/car.svg') }}" alt="" class="mx-auto mt-4 w-28">
+                
+                <!-- Card 3 -->
+                <div class="w-full md:w-1/3 lg:w-80 transition-transform transform hover:scale-105 hover:shadow-lg p-4 bg-white rounded-lg">
+                    <img src="{{ asset('img/car.svg') }}" alt="Car Icon" class="mx-auto mt-4 w-28">
                     <p class="text-center my-4 text-5xl text-bigTitle">200<span class="text-xl align-top text-textGreen">+</span></p>
-                    <p class="text-center">
+                    <p class="text-center text-gray-700 font-semibold">
                         Kendaraan
                     </p>
                 </div>
-                <div class="w-full md:w-1/3 lg:w-80">
-                   
-                    <img src="{{ asset('img/maps.svg') }}" alt="" class="mx-auto mt-4 w-28">
+                
+                <!-- Card 4 -->
+                <div class="w-full md:w-1/3 lg:w-80 transition-transform transform hover:scale-105 hover:shadow-lg p-4 bg-white rounded-lg">
+                    <img src="{{ asset('img/maps.svg') }}" alt="Maps Icon" class="mx-auto mt-4 w-28">
                     <p class="text-center my-4 text-5xl text-bigTitle">20<span class="text-xl align-top text-textGreen">+</span></p>
-                    <p class="text-center">
+                    <p class="text-center text-gray-700 font-semibold">
                         Pilihan Rute
                     </p>
                 </div>
             </div>
         </div>
+        
         <div>
             <div class="text-2xl md:text-3xl lg:text-5xl font-bold text-center text-[#ffd700] mb-2">
                 Layanan Kami
@@ -510,8 +509,6 @@
                     </iframe>
                 </div>
             </div>
-            
-            
         </div>
     </div>
 </x-app>
