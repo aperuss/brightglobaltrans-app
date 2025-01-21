@@ -1,7 +1,7 @@
 <x-app title="Beranda">
     <div class="overflow-hidden">
         <div>
-            <div class="flex flex-wrap md:flex-nowrap">
+            {{-- <div class="flex flex-wrap md:flex-nowrap">
                 <!-- Section Kiri -->
                 <div class="w-full md:w-1/2 py-8 md:py-14 px-6 md:px-28 order-2 md:order-1">
                     <div>
@@ -23,7 +23,7 @@
                                 CONTACT
                             </button>
                         </div>
-                        <div class="bg-navbarTitle w-full rounded-md p-5 mt-4 drop-shadow-lg text-white">
+                        <div class="bg-[#708238] w-full rounded-md p-5 mt-4 drop-shadow-lg text-white">
                             <div class="flex flex-col md:flex-row gap-4">
                                 <!-- Section Kiri -->
                                 <div class="w-full md:w-1/2 text-justify">
@@ -51,8 +51,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="mb-20 mt-8">
+        </div> --}}
+        <div class="mb-20 ">
             <div id="gallery" class="relative w-full" data-carousel="slide">
                 <!-- Carousel wrapper -->
                 <div class=" h-[80vh] md:min-h-screen overflow-hidden rounded-lg">

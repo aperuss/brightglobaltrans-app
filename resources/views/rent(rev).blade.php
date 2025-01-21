@@ -6,7 +6,7 @@
                     ARMADA KAMI
                 </div>
                 <div class="text-sm md:text-lg lg:text-xl text-customGreen font-semibold leading-relaxed">
-                    aminan kualitas dan kenyamanan ada di tangan kami. Setiap armada travel kami dirawat dengan baik untuk memastikan Anda tiba di tujuan dengan aman dan nyaman.
+                    Jaminan kualitas dan kenyamanan ada di tangan kami. Setiap armada travel kami dirawat dengan baik untuk memastikan Anda tiba di tujuan dengan aman dan nyaman.
                 </div>
             </div>
         </div>

@@ -43,8 +43,10 @@
                     {{-- <div class="flex justify-center items-center">
                         <div class="swiper-pagination"></div>
                     </div> --}}
-                    <div class="swiper-button-prev "></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="hidden md:block">
+                        <div class="swiper-button-prev "></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                     {{-- <div class="flex justify-center items-center py-5 gap-4">
                         <div class="swiper-button-prev">
                             <svg class="w-[35px] h-[35px] fill-customGreen" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
