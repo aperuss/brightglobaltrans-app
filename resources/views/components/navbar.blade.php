@@ -19,6 +19,8 @@
                         <li><a href="{{ route('aboutus') }}">Tentang</a></li>
                         <li><a href="{{ route('testimoni') }}">Testimoni</a></li>
                         <li><a href="{{ route('information') }}">Informasi</a></li>
+                        <li><a href="{{ route('blog') }}">blog</a></li>
+
                         
                     </ul>
                 </div>

@@ -63,4 +63,5 @@
             </div>
         </div>
     </div>
+    @vite('resources/js/slide-testimoni.js')
 </x-app>

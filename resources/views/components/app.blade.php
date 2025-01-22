@@ -9,7 +9,7 @@
     <!--link tailwind-->
     @vite('resources/css/app.css')
     <!--link js slide testimoni-->
-    @vite('resources/js/slide-testimoni.js')
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
