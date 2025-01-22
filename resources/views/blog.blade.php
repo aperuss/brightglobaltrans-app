@@ -15,7 +15,7 @@
                    </div>
                    <div class="flex justify-between items-center">
                        <div>
-                           <a href="" class="rounded-lg text-sm md:text-xl border-2 bg-newGold border-newGold py-1 px-5 md:px-7 text-putih hover:bg-transparent hover:border-newGold hover:text-newGold transition-colors duration-300">
+                           <a href="{{ route('blog-detail') }}" class="rounded-lg text-sm md:text-xl border-2 bg-newGold border-newGold py-1 px-5 md:px-7 text-putih hover:bg-transparent hover:border-newGold hover:text-newGold transition-colors duration-300">
                                Read More
                            </a>
                        </div>
@@ -36,7 +36,7 @@
                    </div>
                    <div class="flex justify-between items-center">
                        <div>
-                           <a href="" class="rounded-lg text-sm md:text-xl border-2 bg-newGold border-newGold py-1 px-5 md:px-7 text-putih hover:bg-transparent hover:border-newGold hover:text-newGold transition-colors duration-300">
+                           <a href="{{ route('blog-detail') }}" class="rounded-lg text-sm md:text-xl border-2 bg-newGold border-newGold py-1 px-5 md:px-7 text-putih hover:bg-transparent hover:border-newGold hover:text-newGold transition-colors duration-300">
                                Read More
                            </a>
                        </div>
@@ -57,7 +57,7 @@
                    </div>
                    <div class="flex justify-between items-center">
                        <div>
-                           <a href="" class="rounded-lg text-sm md:text-xl border-2 bg-newGold border-newGold py-1 px-5 md:px-7 text-putih hover:bg-transparent hover:border-newGold hover:text-newGold transition-colors duration-300">
+                           <a href="{{ route('blog-detail') }}" class="rounded-lg text-sm md:text-xl border-2 bg-newGold border-newGold py-1 px-5 md:px-7 text-putih hover:bg-transparent hover:border-newGold hover:text-newGold transition-colors duration-300">
                                Read More
                            </a>
                        </div>
@@ -76,7 +76,7 @@
                     </a>
                 </div>
                 <div class="space-y-4">
-                    <div class="flex gap-2">
+                    <a href="{{ route('blog-detail') }}" class="flex gap-2">
                       <div>
                         <img src="{{ asset('img/dummyImage.jpg') }}" alt="" class="rounded-lg min-w-52 max-w-52">
                       </div>
@@ -86,8 +86,8 @@
                         </div>
                         <span class="text-gray-600 items-end">22 Januari, 2025</span>
                       </div>
-                    </div>
-                    <div class="flex gap-2">
+                    </a>
+                    <a href="{{ route('blog-detail') }}" class="flex gap-2">
                       <div>
                         <img src="{{ asset('img/dummyImage.jpg') }}" alt="" class="rounded-lg min-w-52 max-w-52">
                       </div>
@@ -97,8 +97,8 @@
                         </div>
                         <span class="text-gray-600 items-end">22 Januari, 2025</span>
                       </div>
-                    </div>
-                    <div class="flex gap-2">
+                    </a>
+                    <a href="{{ route('blog-detail') }}" class="flex gap-2">
                       <div>
                         <img src="{{ asset('img/dummyImage.jpg') }}" alt="" class="rounded-lg min-w-52 max-w-52">
                       </div>
@@ -108,8 +108,8 @@
                         </div>
                         <span class="text-gray-600 items-end">22 Januari, 2025</span>
                       </div>
-                    </div>
-                    <div class="flex gap-2">
+                    </a>
+                    <a href="{{ route('blog-detail') }}" class="flex gap-2">
                       <div>
                         <img src="{{ asset('img/dummyImage.jpg') }}" alt="" class="rounded-lg min-w-52 max-w-52">
                       </div>
@@ -119,8 +119,8 @@
                         </div>
                         <span class="text-gray-600 items-end">22 Januari, 2025</span>
                       </div>
-                    </div>
-                    <div class="flex gap-2">
+                    </a>
+                    <a href="{{ route('blog-detail') }}" class="flex gap-2">
                       <div>
                         <img src="{{ asset('img/dummyImage.jpg') }}" alt="" class="rounded-lg min-w-52 max-w-52">
                       </div>
@@ -130,7 +130,7 @@
                         </div>
                         <span class="text-gray-600 items-end">22 Januari, 2025</span>
                       </div>
-                    </div>
+                    </a>
                   </div>
                 </div>
           </div>
